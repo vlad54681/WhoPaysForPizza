@@ -1,0 +1,43 @@
+li {
+	position: relative;
+	bottom: 50%;
+	top: 50%;
+	outline: 3px solid rgb(31, 30, 30);
+	width: 100%;
+}
+.pizzaSlice__cake {
+	position: relative;
+
+	border: none;
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+	list-style: none;
+	overflow: hidden;
+	transition: all 1s ease;
+}
+.pizzaSlice {
+	width: 90%;
+
+	height: 90%;
+	background: url("../../assets/img/pizza1.png") center / 100% 100% no-repeat;
+	box-sizing: border-box;
+}
+.pizzaSlice__container {
+	flex: 0 0 auto;
+	width: 550px;
+	height: 550px;
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.pizzaSlice__text {
+	margin-top: 20px;
+	letter-spacing: 0.1em;
+	font-size: 24px;
+	color: white;
+}
+.circle {
+	display: inline;
+}

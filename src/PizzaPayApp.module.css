@@ -1,0 +1,17 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background: url("./assets/img/bg.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+.pizzaPayApp {
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 100px;
+}

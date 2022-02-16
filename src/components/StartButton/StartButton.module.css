@@ -1,0 +1,18 @@
+.StartButton__button {
+	padding: 15px 20px;
+	border-radius: 15px;
+	background: rgba(133, 0, 0, 0.8);
+	color: rgba(255, 255, 255, 0.7);
+	cursor: pointer;
+	box-sizing: border-box;
+	transition: all 0.1s ease;
+	font-size: 35px;
+	text-align: center;
+}
+.StartButton__button:hover {
+	color: rgba(255, 255, 255, 1);
+	box-shadow: 5px 5px 7px 3px rgba(3, 3, 3, 0.8);
+}
+.StartButton__button:active {
+	background: rgba(97, 0, 0, 0.8);
+}
